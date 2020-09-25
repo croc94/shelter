@@ -1,0 +1,5 @@
+body {
+  --whiteCol: rgba(255, 255, 255, 1);
+  background-color: var(--whiteCol);
+}
+/*# sourceMappingURL=style.css.map */

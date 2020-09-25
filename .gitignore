@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+# ignore image example
+shelter-main-1280px.jpg
+
+#prepocessor files
+*.map
+*.scss
