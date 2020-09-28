@@ -428,4 +428,63 @@ body .main_container .sec_5_container .sec_content .sec_5_content .button_primar
 body .main_container .sec_5_container .sec_content .sec_5_content .paragraph_s {
   margin-top: 16px;
 }
+
+body .main_container .sec_6_container {
+  padding-top: 40px;
+  width: 100%;
+  background: url(../../assets/img_main/noise_transparent.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+
+body .main_container .sec_6_container .sec_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: left;
+}
+
+body .main_container .sec_6_container .sec_content .sec_6_block_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 160px;
+  margin-top: 22px;
+}
+
+body .main_container .sec_6_container .sec_content .sec_6_block_container .sec_6_block .h3 {
+  color: var(--col_white);
+}
+
+body .main_container .sec_6_container .sec_content .sec_6_block_container .sec_6_block .link_block {
+  margin: 42px 0;
+}
+
+body .main_container .sec_6_container .sec_content .sec_6_block_container .sec_6_block .link_block .h4 {
+  color: var(--col_cream);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+body .main_container .sec_6_container .sec_content .sec_6_block_container .sec_6_block .links_margin_2 {
+  margin: 33px 0;
+}
 /*# sourceMappingURL=style.css.map */
