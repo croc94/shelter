@@ -347,4 +347,35 @@ body .main_container .sec_3_container .sec_3_carusel_container .sec_3_cards_cont
           align-items: center;
   gap: 76px;
 }
+
+body .main_container .sec_4_container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+body .main_container .sec_4_container .sec_4_help_variants {
+  width: 1030px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 58px;
+  gap: 120px;
+}
+
+body .main_container .sec_4_container .sec_4_help_variants .help_variant:nth-child(n+5) {
+  margin-top: -66px;
+}
+
+body .main_container .sec_4_container .sec_4_help_variants .help_variant p {
+  margin-top: 24px;
+}
 /*# sourceMappingURL=style.css.map */
