@@ -137,7 +137,7 @@ body .paragraph_l {
   margin-top: 25px;
 }
 
-body .paragraph-s {
+body .paragraph_s {
   font-family: Arial;
   font-style: italic;
   font-weight: normal;
@@ -377,5 +377,55 @@ body .main_container .sec_4_container .sec_4_help_variants .help_variant:nth-chi
 
 body .main_container .sec_4_container .sec_4_help_variants .help_variant p {
   margin-top: 24px;
+}
+
+body .main_container .sec_5_container {
+  padding-top: 82px;
+  padding-bottom: 100px;
+  text-align: left;
+}
+
+body .main_container .sec_5_container .sec_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 31px;
+}
+
+body .main_container .sec_5_container .sec_content .sec_5_content {
+  width: 380px;
+}
+
+body .main_container .sec_5_container .sec_content .sec_5_content .h5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body .main_container .sec_5_container .sec_content .sec_5_content .button_primary {
+  padding: 10px 15px 10px 15px;
+  border-radius: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main_container .sec_5_container .sec_content .sec_5_content .button_primary img {
+  margin-right: 8px;
+}
+
+body .main_container .sec_5_container .sec_content .sec_5_content .paragraph_s {
+  margin-top: 16px;
 }
 /*# sourceMappingURL=style.css.map */
