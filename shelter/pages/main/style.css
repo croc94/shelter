@@ -180,12 +180,28 @@ body .button_secondary {
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
-  margin: 0px 10px;
 }
 
 body .button_secondary:hover {
   background: var(--col_cream_hover);
   border-color: transparent;
+}
+
+body .card {
+  background: var(--col_link_hover);
+  border-radius: 9px;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  -webkit-transition: -webkit-box-shadow 0.5s ease-out;
+  transition: -webkit-box-shadow 0.5s ease-out;
+  transition: box-shadow 0.5s ease-out;
+  transition: box-shadow 0.5s ease-out, -webkit-box-shadow 0.5s ease-out;
+  padding: 30px 41.5px;
+}
+
+body .card:hover {
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 body .card_name {
@@ -314,8 +330,9 @@ body .main_container .sec_3_container .sec_3_carusel_container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 80px;
-  margin: 88px 0;
+  gap: 46px;
+  margin-top: 60px;
+  margin-bottom: 57px;
 }
 
 body .main_container .sec_3_container .sec_3_carusel_container .sec_3_cards_container {
@@ -328,6 +345,6 @@ body .main_container .sec_3_container .sec_3_carusel_container .sec_3_cards_cont
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 148px;
+  gap: 76px;
 }
 /*# sourceMappingURL=style.css.map */
