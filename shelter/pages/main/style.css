@@ -181,12 +181,47 @@ body .button_secondary {
   letter-spacing: 0.06em;
   color: #292929;
   margin: 0px 10px;
-  border: none;
 }
 
 body .button_secondary:hover {
   background: var(--col_cream_hover);
-  border: none;
+  border-color: transparent;
+}
+
+body .card_name {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: var(--col_dark_text_1);
+  margin: 26px 0;
+}
+
+body .round_button {
+  border: 2px solid var(--col_cream);
+  border-radius: 50%;
+  background-color: transparent;
+  -webkit-transition: border 0.5s ease-in-out, background-color 0.5s ease-in-out;
+  transition: border 0.5s ease-in-out, background-color 0.5s ease-in-out;
+  width: 52px;
+  height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 22px;
+}
+
+body .round_button:hover {
+  border-color: transparent;
+  background-color: var(--col_cream_hover);
 }
 
 body .main_container {
@@ -262,5 +297,37 @@ body .main_container .sec_2_container .sec_2_container_text {
   width: 430px;
   -webkit-transform: translateY(16px);
           transform: translateY(16px);
+}
+
+body .main_container .sec_3_container {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+body .main_container .sec_3_container .sec_3_carusel_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 80px;
+  margin: 88px 0;
+}
+
+body .main_container .sec_3_container .sec_3_carusel_container .sec_3_cards_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 148px;
 }
 /*# sourceMappingURL=style.css.map */
