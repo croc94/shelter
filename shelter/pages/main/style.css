@@ -88,6 +88,10 @@ body .nav_link:active {
   border-bottom: 2px solid var(--col_cream);
 }
 
+body .active_link {
+  border-bottom: 2px solid var(--col_cream);
+}
+
 body .h2 {
   font-family: Georgia;
   font-style: normal;
