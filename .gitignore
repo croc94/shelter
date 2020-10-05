@@ -106,6 +106,10 @@ dist
 # ignore image example
 shelter-main-1280px.jpg
 
+our-pets-1280.jpg
+our-pets-768.jpg
+our-pets-320.jpg
+
 #prepocessor files
 *.map
 *.scss
