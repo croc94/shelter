@@ -1,1 +1,74 @@
-/* No CSS *//*# sourceMappingURL=style_pets.css.map */
+body {
+  /* variables */
+  --col_grey: #F6F6F6;
+  /* classes */
+  /* my styles fot shelter.Pets page */
+  background-color: var(--col_white);
+}
+
+body .title {
+  color: var(--col_dark_text_1);
+}
+
+body .subtitle {
+  color: var(--col_dark_text_1);
+}
+
+body .nav_link {
+  color: var(--col_dark_text_1);
+}
+
+body .card {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+body .pets_portfolio_button_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+body .main_container .sec_1_container {
+  padding-top: 30px;
+  background: var(--col_white);
+}
+
+body .main_container .sec_1_container .sec_content header {
+  background-color: var(--col_white);
+  margin-bottom: 2rem;
+}
+
+body .main_container .sec_2_container_petsPage {
+  background-color: var(--col_grey);
+  padding-top: 81px;
+  padding-bottom: 93px;
+}
+
+body .main_container .sec_2_container_petsPage .sec_content .pets_portfolio {
+  margin-top: 60px;
+}
+
+body .main_container .sec_2_container_petsPage .sec_content .pets_portfolio .pets_portfolio_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 69px;
+}
+/*# sourceMappingURL=style_pets.css.map */
