@@ -245,7 +245,7 @@ body .round_button:hover {
 }
 
 body .main_container {
-  width: 1920px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -494,6 +494,32 @@ body .main_container .sec_6_container .sec_content .sec_6_block_container .sec_6
 
 body .main_container .sec_6_container .sec_content .sec_6_block_container .sec_6_block .links_margin_2 {
   margin: 33px 0;
+}
+
+@media screen and (min-width: 1920px) {
+  body .main_container {
+    width: 1920px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  body .main_container .sec_4_container .sec_4_help_variants {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 66px;
+  }
+  body .main_container .sec_4_container .sec_4_help_variants .help_variant:nth-child(n) {
+    margin-top: 0;
+  }
+  body .main_container .sec_4_container .sec_4_help_variants .help_variant:nth-child(n+6) {
+    margin-top: -8px;
+    margin-right: 16px;
+  }
+  body .main_container .sec_6_container {
+    padding-top: 32px;
+  }
 }
 
 @media screen and (max-width: 768px) {
