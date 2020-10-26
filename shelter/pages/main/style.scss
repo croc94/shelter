@@ -141,18 +141,22 @@ body {
         background-color: var(--col_cream);
         transition: background-color 0.5s ease-in;
         border-radius: 100px;
-
-        font-family: Georgia;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 17px;
-        line-height: 130%;
-        letter-spacing: 0.06em;
-        color: #292929;
         border: none;
 
         &:hover {
             background: var(--col_cream_hover);
+        }
+
+        a {
+            text-decoration: none;
+            font-family: Georgia;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 130%;
+            letter-spacing: 0.06em;
+            color: #292929;
+
         }
     }
     
@@ -479,6 +483,35 @@ body {
                         padding-left: 30px;
                         padding-right: 30px;
                         margin-bottom: 100px;
+
+                        .navs {
+                            position: relative;
+
+                            .nav {
+                                position: absolute;
+
+                                .nav_link {
+                                    opacity: 0;
+                                }
+                            }
+                        
+
+                            .humburger {
+                                border-top : 2px solid var(--col_cream);
+                                border-bottom : 2px solid var(--col_cream);
+                                width: 30px;
+                                height: 18px;
+                                display: flex;
+                                justify-content: center;
+                                align-items : center;
+
+                                .humburger_line {
+                                    width: 100%;
+                                    height: 2px;
+                                    background-color: var(--col_cream);
+                                }
+                            }
+                        }
                     }
 
                     .sec_1_content {
@@ -646,34 +679,6 @@ body {
                     header {
                         padding-left: 10px;
                         padding-right: 54px;
-                        
-                        .navs {
-                            position: relative;
-
-                            .nav {
-                                position: absolute;
-
-                                .nav_link {
-                                    opacity: 0;
-                                }
-                            }
-
-                            .humburger {
-                                border-top : 2px solid var(--col_cream);
-                                border-bottom : 2px solid var(--col_cream);
-                                width: 30px;
-                                height: 18px;
-                                display: flex;
-                                justify-content: center;
-                                align-items : center;
-
-                                .humburger_line {
-                                    width: 100%;
-                                    height: 2px;
-                                    background-color: var(--col_cream);
-                                }
-                            }
-                        }
                     }
 
                     .sec_1_content {
