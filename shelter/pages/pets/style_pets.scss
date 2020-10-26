@@ -2,6 +2,7 @@ body {
     /* variables */
 
     --col_grey : #F6F6F6;
+    --col_black : #000;
 
     /* classes */
 
@@ -35,7 +36,7 @@ body {
     }
 
     .sec_content {
-        width : auto;
+        width : 93.75%;
     }
 
     /* my styles fot shelter.Pets page */
@@ -43,6 +44,7 @@ body {
     background-color: var(--col_white);
 
     .main_container {
+        width: 1280px;
 
         .sec_1_container {
             padding-top: 30px;
@@ -77,32 +79,33 @@ body {
                 }
             }
         }
+
+        .sec_6_container {
+            padding-top: 40px;
+        }
     }
 
     @media screen and (max-width: 768px) {
 
+        .sec_content {
+            width : 100%;
+        }
+
         .main_container {
-            width : 768px;
+            width : 100%;
 
             .sec_1_container {
                 padding-bottom: 2rem;
-                
-                .sec_content {
-
-                    header {
-                        margin : 0 30px;
-                    }
-                }
             }
 
             .sec_2_container_petsPage {
-                padding-top : 71px;
-                padding-bottom: 75px;
+                padding-top : 48px;
+                padding-bottom: 74px;
 
                 .sec_content {
 
                     .pets_portfolio {
-                        margin-top: 38px;
+                        margin-top: 30px;
 
                         .pets_portfolio_container {
                             margin-bottom: 52px;
@@ -126,9 +129,91 @@ body {
 
                     .sec_6_block_container {
                         gap : 66px;
-                        margin-bottom: 20px;
+                        margin-bottom: 0px;
                     }
                 }
+            }
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+
+        .card_name {
+            margin-top: 24px;
+        }
+
+        .main_container {
+
+            .sec_1_container {
+                padding-bottom: 15px;
+                
+                .sec_content {
+
+                    header {
+                        
+                        .navs {
+
+                            .humburger {
+                                border-color : var(--col_black);
+
+                                .humburger_line {
+                                    //background-color : var(--col_black);
+                                    background-color : var(--col_black);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .sec_2_container_petsPage {
+                padding-top: 27px;
+                padding-bottom : 36px;
+
+                .sec_content {
+
+                    .pets_portfolio {
+                        margin-top: 41px;
+
+                        .pets_portfolio_container {
+
+                            .card {
+
+                                &:nth-child(n+4) {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        .pets_portfolio_button_container {
+                            gap : 8px
+                        }
+                    }
+                }
+            }
+
+            .sec_6_container {
+                
+                .sec_content {
+                    
+
+                    .sec_6_block_container {
+                        gap : 0;
+
+                        .sec_6_block {
+
+                            &:nth-child(2) {
+        
+                                .h3 {
+                                    //font-size: 25px;
+                                    width : 90%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                
             }
         }
     }
